@@ -6,8 +6,8 @@ import {
   IconBrandGoogle,
   IconBrandOnlyfans,
 } from "@tabler/icons-react";
-import { Label } from "@radix-ui/react-label";
 import { Input } from "./ui/input";
+import { Label } from "./ui/label";
 
 export function SignupFormDemo() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
