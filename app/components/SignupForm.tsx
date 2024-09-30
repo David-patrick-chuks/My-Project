@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
-import { Label } from "../ui/label";
-import { Input } from "../ui/input";
 import { cn } from "@/lib/utils";
 import {
   IconBrandGithub,
   IconBrandGoogle,
   IconBrandOnlyfans,
 } from "@tabler/icons-react";
+import { Label } from "@radix-ui/react-label";
+import { Input } from "./ui/input";
 
 export function SignupFormDemo() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
