@@ -22,7 +22,7 @@ export function GridBackgroundDemo() {
           className="w-[50vw] top-28 left-80 h-[80dvh]"
         />
       </div>
-      <Robo
+
       <div className="h-[50rem] w-full dark:bg-foodconnect-950 bg-foodconnect-50 dark:bg-grid-foodconnect-900/[0.2] bg-grid-foodconnect-200/[0.2] relative flex items-center flex-col justify-center">
         {/* Radial gradient for the container to give a faded look */}
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-foodconnect-950 bg-foodconnect-50 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
